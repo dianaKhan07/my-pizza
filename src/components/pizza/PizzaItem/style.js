@@ -5,6 +5,7 @@ export const PizzaWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
+    cursor: pointer;
 `
 export const ImgBlock = styled.img`
     width: 100%;
@@ -37,5 +38,13 @@ export const CartButton = styled(Button)`
     }
     &:hover span{
     color: white;
+    }
+`
+export const ModalWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+        width: 50%;
     }
 `

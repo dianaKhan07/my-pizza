@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Navigation from './components/navigation/Navigation';
-import Pizza from './components/pizza/Pizza';
+import Product from './components/pizza/Pizza';
 import Slider from './components/slider/Slider';
 import Snacks from './components/snacks/Snacks';
 
@@ -14,8 +14,11 @@ function App() {
       <Header/>
       <Navigation/>
       <Slider/>
-      <Pizza/>
-      <Snacks/>
+      <Product id="pizzas" name="Пицца"/>
+      <Product id="snacks" name="закуски"/>
+      <Product id="desserts" name="десерты"/>
+     
+      {/* <Snacks/> */}
     </div>
   );
 }

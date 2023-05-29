@@ -6,30 +6,67 @@ import {
     FooterBlock,
     Price,
     CartButton,
+    ModalWrapper
 
 } from './style'
-const PizzaItem = ({pizza}) => {
+import { useState } from 'react';
+import { Button, Modal } from 'antd';
+const PizzaItem = ({data}) => {
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const showModal = () => {
+      setIsModalOpen(true);
+    };
+    const handleOk = () => {
+      setIsModalOpen(false);
+    };
+    const handleCancel = () => {
+      setIsModalOpen(false);
+    };
     return (
-        <div>
-             <PizzaWrapper>
-                <ImgBlock src={pizza.img}/>
+            <>
+             <PizzaWrapper onClick={showModal}>
+                <ImgBlock src={data.img}/>
                 <NameBlock>
-                    {pizza.name}
+                    {data.name}
                 </NameBlock>
                 <DescBlock>
-                    {pizza.desk}
+                    {data.desk}
                 </DescBlock>
                 <FooterBlock>
                     <Price>
-                       от {pizza.price}  ₽
+                       от {data.price}  ₽
                     </Price>
                     <CartButton>
                         в корзину
                     </CartButton>
                 </FooterBlock>
             </PizzaWrapper>
-        </div>
+        <Modal open={isModalOpen} onOk={handleOk}
+           onCancel={handleCancel} width="50%"
+           cancelButtonProps={{
+            style: {
+                display: "none"
+            },
+          }}
+          okButtonProps={{
+            style: {
+                backgroundColor: "gold"
+            }
+          }}>
+            <ModalWrapper>
+                <ImgBlock src={data.img}/>
+                <div>
+                    <NameBlock>
+                        {data.name}
+                    </NameBlock>
+                    <DescBlock>
+                        {data.desk}
+                    </DescBlock>
+                </div>
+            </ModalWrapper>
+      </Modal>
+        </>
     )
 }
 export default PizzaItem;

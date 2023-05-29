@@ -22,7 +22,7 @@ const SnacksItem = ({snacks}) => {
                 </DescBlock>
                 <FooterBlock>
                     <Price>
-                       от {snacks.price}  ₽
+                       {snacks.price}  ₽
                     </Price>
                     <CartButton>
                         в корзину

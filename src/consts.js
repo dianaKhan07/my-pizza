@@ -138,7 +138,34 @@ export const NavItems = [
             desk: 'Солнечный снаружи и яркий по вкусу внутри. Летняя новинка — чизкейк с бананом и шоколадным печенье',
             price: 149
         },
-        {
+        // {
+        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/628471b5fa7848c29a1942d22310002a_366x366.webp',
+        //     name: 'бруслетики',
+        //     desk: 'Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и сгущенного молока',
+        //     price: 230
+        // },
+        // {
+        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_366x366.webp',
+        //     name: 'рулетики с корицей',
+        //     desk: 'Десерт, одобренный нашими бабушками. Горячие сладкие рулетики с пряной корицей и сахаром',
+        //     price: 205
+        // },
+        // {
+        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/aaaf00a849a14804ba9264dc7838021e_366x366.webp',
+        //     name: 'сырники',
+        //     desk: 'Любимый десерт многих наших гостей — сырники из печи. Такие нежные и напоминающие детство',
+        //     price: 149
+        // },
+        // {
+        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/265f35eba4624852bf4b2e73a53f4c83_366x366.webp',
+        //     name: 'айс капучино',
+        //     desk: 'Освежающий напиток для любителей кофе. В составе эспрессо, пломбир и бодрость на весь день',
+        //     price: 199
+        // },
+        
+    ]
+    export const DessertsData = [
+     {
             img:'https://dodopizza-a.akamaihd.net/static/Img/Products/628471b5fa7848c29a1942d22310002a_366x366.webp',
             name: 'бруслетики',
             desk: 'Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и сгущенного молока',
@@ -153,7 +180,7 @@ export const NavItems = [
         {
             img:'https://dodopizza-a.akamaihd.net/static/Img/Products/aaaf00a849a14804ba9264dc7838021e_366x366.webp',
             name: 'сырники',
-            desk: 'Любимый десерт многих наших гостей — румяные сырники из печи. Такие нежные и напоминающие детство',
+            desk: 'Любимый десерт многих наших гостей — сырники из печи. Такие нежные и напоминающие детство',
             price: 149
         },
         {
@@ -162,5 +189,28 @@ export const NavItems = [
             desk: 'Освежающий напиток для любителей кофе. В составе эспрессо, пломбир и бодрость на весь день',
             price: 199
         },
-        
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_366x366.webp',
+            name: 'Чизкейк Нью-Йорк',
+            desk: 'Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк',
+            price: 149
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/c3687909a9cf4064aabc5b07a166e848_366x366.webp',
+            name: 'маффин с арахисом',
+            desk: 'Раз откусить — навсегда полюбить! Оцените яркое сочетание соленой карамели и арахиса',
+            price: 99
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/4922d35d13ef4acba55944a5d5cdae70_366x366.webp',
+            name: 'маффин три шоколада',
+            desk: 'Он из натурального какао, а внутри — нежная начинка из кубиков белого и молочного шоколада',
+            price: 99
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/2556eeed7a3b4822ba62a6f30e111465_366x366.webp',
+            name: 'Чизкейк банановый',
+            desk: 'Солнечный снаружи и яркий по вкусу внутри. Летняя новинка — чизкейк с бананом и шоколадным печенье',
+            price: 149
+        },
     ]
