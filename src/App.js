@@ -8,6 +8,7 @@ import Slider from './components/slider/Slider';
 
 function App() {
   return (
+    <>
     <div className='mainContainer'> 
 
       <Header/>
@@ -16,10 +17,9 @@ function App() {
       <Product id="pizzas" name="Пицца"/>
       <Product id="snacks" name="закуски"/>
       <Product id="desserts" name="десерты"/>
-      <Footer/>
-     
-      {/* <Snacks/> */}
     </div>
+    <Footer/>
+    </>
   );
 }
 
