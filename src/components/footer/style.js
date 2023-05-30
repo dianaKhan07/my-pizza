@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     background-color: rgb(24, 24, 24);
-    width: 100%!important;
+    width: 100%;
     height: 82vh;
     margin-top: 70px;
     color: rgb(255, 255, 255);
@@ -14,26 +14,26 @@ export const FooterBlockDodo = styled.div`
     text-align: left;
     gap: 40px;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 100px;
 `
 export const FooterProfit = styled.div`
     display: flex;
     text-align: left;
     gap: 40px;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 100px;
 `
 export const FooterPart = styled.div`
     display: flex;
     text-align: left;
     gap: 40px;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 100px;
 `
 export const FooterMini = styled.div`
     display: flex;
     text-align: left;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 100px;
     font-size: 12px;
 `
