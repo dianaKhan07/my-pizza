@@ -115,53 +115,53 @@ export const NavItems = [
     ]
     export const SnacksData = [
         {
-            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_366x366.webp',
-            name: 'Чизкейк Нью-Йорк',
-            desk: 'Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк',
-            price: 149
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/2ca9c6ce8014499db95a2aef44706c06_366x366.webp',
+            name: 'паста мясная',
+            desk: 'Паста с митболами, соусом бургер, моцареллой, фирменным томатным соусом и чесноком',
+            price: 329
         },
         {
-            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/c3687909a9cf4064aabc5b07a166e848_366x366.webp',
-            name: 'маффин с арахисом',
-            desk: 'Раз откусить — навсегда полюбить! Оцените яркое сочетание соленой карамели и арахиса',
-            price: 99
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/dc577e956af24e3b996c444bec272bcb_366x366.webp',
+            name: 'ланчбокс с крыльями',
+            desk: 'Сытный обед из куриных крылышек со специями и ароматом копчения, картофеля и соуса барбекю',
+            price: 315
         },
         {
-            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/4922d35d13ef4acba55944a5d5cdae70_366x366.webp',
-            name: 'маффин три шоколада',
-            desk: 'Он из натурального какао, а внутри — нежная начинка из кубиков белого и молочного шоколада',
-            price: 99
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/e34f4999564e4e58ac4360fb3730e711_366x366.webp',
+            name: 'крылья барбекю',
+            desk: 'Куриные крылышки со специями и ароматом копчения. В порции локтевые и плечевые части крылышек',
+            price: 389
         },
         {
-            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/2556eeed7a3b4822ba62a6f30e111465_366x366.webp',
-            name: 'Чизкейк банановый',
-            desk: 'Солнечный снаружи и яркий по вкусу внутри. Летняя новинка — чизкейк с бананом и шоколадным печенье',
-            price: 149
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/be03844e8b8a401ba4af5a4e7f74ea37_366x366.webp',
+            name: 'додстер',
+            desk: 'Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке',
+            price: 169
         },
-        // {
-        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/628471b5fa7848c29a1942d22310002a_366x366.webp',
-        //     name: 'бруслетики',
-        //     desk: 'Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и сгущенного молока',
-        //     price: 230
-        // },
-        // {
-        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_366x366.webp',
-        //     name: 'рулетики с корицей',
-        //     desk: 'Десерт, одобренный нашими бабушками. Горячие сладкие рулетики с пряной корицей и сахаром',
-        //     price: 205
-        // },
-        // {
-        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/aaaf00a849a14804ba9264dc7838021e_366x366.webp',
-        //     name: 'сырники',
-        //     desk: 'Любимый десерт многих наших гостей — сырники из печи. Такие нежные и напоминающие детство',
-        //     price: 149
-        // },
-        // {
-        //     img:'https://dodopizza-a.akamaihd.net/static/Img/Products/265f35eba4624852bf4b2e73a53f4c83_366x366.webp',
-        //     name: 'айс капучино',
-        //     desk: 'Освежающий напиток для любителей кофе. В составе эспрессо, пломбир и бодрость на весь день',
-        //     price: 199
-        // },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/727c8ec398bb48bc814a2d83c2e6a74c_366x366.webp',
+            name: 'денвич',
+            desk: 'Поджаристая чиабатта и сочетание ветчины, цыпленка, моцареллы со свежими томатами и соусом ранч',
+            price: 229
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/c65d065f6e654aa2a20787a9e806e04d_366x366.webp',
+            name: 'додстер карри',
+            desk: 'Горячая закуска с цыпленком, ананасом, сладким перцем, моцареллой и пряным соусом карри в пшеничной лепешке',
+            price: 189
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/6d6b84d657c740f497409da669c436b8_366x366.webp',
+            name: 'сырный стартер',
+            desk: 'Горячая закуска с очень сырной начинкой. Моцарелла, пармезан, чеддер и соус ранч в тонкой пшеничной лепешке',
+            price: 169
+        },
+        {
+            img:'https://dodopizza-a.akamaihd.net/static/Img/Products/ccd4c30efe92439c9875496dd0ba4942_366x366.webp',
+            name: 'сырные палочки',
+            desk: 'Перекус для компании. На пышном тесте — только сыр и чеснок. И соус чесночный в комплекте — с ним вкуснее!',
+            price: 249
+        },
         
     ]
     export const DessertsData = [

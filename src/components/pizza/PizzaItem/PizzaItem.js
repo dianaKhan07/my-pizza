@@ -35,7 +35,7 @@ const PizzaItem = ({data}) => {
                 </DescBlock>
                 <FooterBlock>
                     <Price>
-                       от {data.price}  ₽
+                        {data.price}  ₽
                     </Price>
                     <CartButton>
                         в корзину
